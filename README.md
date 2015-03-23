@@ -16,6 +16,9 @@ Optional: Edited background colors for each scene
 
 Heres a walkthough of my work:
 
+![My Image](https://github.com/bryanmclellan/TipCalculator/blob/master/TipsDemo.gif)
+
+GIF created with LiceCap
 
 
 
