@@ -13,6 +13,7 @@
 		CA24A0441ABCD67200803B5C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA24A0431ABCD67200803B5C /* Images.xcassets */; };
 		CA24A0471ABCD67200803B5C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA24A0451ABCD67200803B5C /* LaunchScreen.xib */; };
 		CA24A0531ABCD67300803B5C /* tipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA24A0521ABCD67300803B5C /* tipsTests.swift */; };
+		CA24A05D1ABE709F00803B5C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA24A05C1ABE709F00803B5C /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		CA24A04C1ABCD67300803B5C /* tipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA24A0511ABCD67300803B5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA24A0521ABCD67300803B5C /* tipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsTests.swift; sourceTree = "<group>"; };
+		CA24A05C1ABE709F00803B5C /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = ../SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +79,8 @@
 		CA24A0391ABCD67200803B5C /* tips */ = {
 			isa = PBXGroup;
 			children = (
+				CA24A05E1ABE70C200803B5C /* ViewControllers */,
 				CA24A03C1ABCD67200803B5C /* AppDelegate.swift */,
-				CA24A03E1ABCD67200803B5C /* ViewController.swift */,
 				CA24A0401ABCD67200803B5C /* Main.storyboard */,
 				CA24A0431ABCD67200803B5C /* Images.xcassets */,
 				CA24A0451ABCD67200803B5C /* LaunchScreen.xib */,
@@ -110,6 +112,15 @@
 				CA24A0511ABCD67300803B5C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA24A05E1ABE70C200803B5C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CA24A05C1ABE709F00803B5C /* SettingsViewController.swift */,
+				CA24A03E1ABCD67200803B5C /* ViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +225,7 @@
 			files = (
 				CA24A03F1ABCD67200803B5C /* ViewController.swift in Sources */,
 				CA24A03D1ABCD67200803B5C /* AppDelegate.swift in Sources */,
+				CA24A05D1ABE709F00803B5C /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
