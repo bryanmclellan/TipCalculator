@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        println("View DiD Load")
+        self.view.backgroundColor = UIColor(red: 204/255.0, green: 229/255.0, blue: 255/255.0, alpha: 0.9)
         tipLabel.text = "$0.00"
         totalLabel.text = "$0.00"
     }
@@ -50,13 +50,11 @@ class ViewController: UIViewController {
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
-        println("view will appear")
         
     }
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
-        println("view did appear")
         //get user settings
         var defaults = NSUserDefaults.standardUserDefaults()
         var intVal = defaults.integerForKey("SettingTipPercentage")
@@ -77,12 +75,10 @@ class ViewController: UIViewController {
     
     override func viewWillDisappear(animated: Bool) {
         super.viewWillDisappear(animated)
-        println("view will disappear")
     }
     
     override func viewDidDisappear(animated: Bool) {
         super.viewDidDisappear(animated)
-        println("view did disappear")
         var defaults = NSUserDefaults.standardUserDefaults()
         defaults.setObject("", forKey: "SettingString")
 

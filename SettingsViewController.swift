@@ -13,6 +13,8 @@ class SettingsViewController: UIViewController {
     @IBOutlet weak var DefaultTipPercentageField: UITextField!
     
     override func viewDidLoad() {
+        
+        self.view.backgroundColor = UIColor(red: 204/255.0, green: 255/229.0, blue: 255/255.0, alpha: 0.9)
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
